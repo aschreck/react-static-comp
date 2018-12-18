@@ -45,6 +45,7 @@ const App = () => {
     <div className='App'>
       {/* add a Header component (already created) */}
       <Header />
+      <Banner />
       {/* add a Banner component (already created) */}
       <Stories  storiesTitle="Today's Top Stories"
                 stories={stories} />
